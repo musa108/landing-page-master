@@ -1,0 +1,170 @@
+*{
+ margin: 0; 
+ padding: 0;  
+ box-sizing: 0;
+}
+body{
+
+}
+.page{
+  background: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  display: block;
+}
+
+.logo-one{
+    width: 70px;
+    margin-top: 20px;
+}
+.logo{
+    display: block;
+    justify-content: center;
+    gap:40px;
+}
+.h3,p{
+    margin-top: 20px;
+}
+.button{
+    margin-top: 20px;
+}
+.btn-one{
+    padding: 7px 20px;
+    background: hsl(171, 66%, 44%);
+    border-radius: 15px;
+    border: 1px hsl(171, 66%, 44%);
+    color: white;
+    margin-top: 10px;
+    box-shadow: 2px 2px 0px 2px hsl(171, 66%, 44%);
+}
+.btn-two{
+    padding: 7px 20px;
+    background: hsl(233, 100%, 69%);
+    border-radius: 15px;
+    border: 1px hsl(233, 100%, 69%);
+    color: white;
+    margin-top: 10px;
+    box-shadow: 2px 2px 0px 2px hsl(233, 100%, 69%);
+    margin-left: 10px;
+}
+.text-one{
+    margin-top: 50px;
+}
+.text-two{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+
+}
+.computer-image{
+    max-width: 10%;
+    height: auto;
+    
+}
+.image-one{
+    width: 500px;
+    
+}
+.content-one{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    margin-left: 400px;
+    row-gap: -80px;
+}
+.text-three{
+    margin-top: 40px;
+}
+.image-devices{
+    margin-top: 30px;
+}
+.image-two{
+width:600px;
+}
+.content-two{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.blacklist{
+    margin-top:-10px;
+}
+.social-logos{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.clipboard{
+    margin-top: 30px;
+}
+.faq{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 30px;
+    background:hsl(216, 11%, 91%) ;
+}
+.social-media{
+    display: grid;
+     grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin: 30px;
+}
+
+.logo-two{
+    width: 50px;
+}
+.faq-logo{
+    margin-top: 15px;
+}
+@media (max-width:600px) {
+    .page{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .text-two{
+        display: block;
+   margin-right: 300px;
+   justify-content: center;
+    }
+    .image-one{
+        width: 300px;
+        justify-content: center;
+    }
+    .content-one{
+        margin-left: 140px;
+        min-width: 200px;
+    }
+    .content-two{
+        display: block;
+        justify-content: center;
+    }
+    .social-logos{
+        display: block;
+        gap: 10px;
+    }
+    .faq{
+        display: block;
+    }
+    .social-media{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+    }
+    .image-two{
+        width: 400px;
+    }
+    .btn-one,.btn-two{
+        width: 400px;
+        margin-left: 30px;
+    }
+
+    
+}
